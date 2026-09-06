@@ -1,0 +1,23 @@
+:root {
+  --bg: #0d1117;
+  --panel: #131a22;
+  --line: #232b34;
+  --text: #e6edf3;
+  --dim: #7d8894;
+  --accent: #3fb950;
+  --lang: #a371f7;
+  --star: #e3b341;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+}

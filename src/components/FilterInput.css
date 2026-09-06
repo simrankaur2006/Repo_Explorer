@@ -1,0 +1,16 @@
+.filter-input {
+  width: 100%;
+  margin-top: 14px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  color: var(--text);
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-family: var(--mono);
+}
+
+.filter-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
