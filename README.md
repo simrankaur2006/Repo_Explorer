@@ -21,13 +21,27 @@ Built with React and Vite, using GitHub's public REST API. No backend, no API ke
 ## Project structure
 
 ```
-src/
-├── api/            GitHub API calls
-├── hooks/          useGithubRepos - search state and data fetching
-├── components/     SearchBar, FilterInput, ProfileHeader, RepoList, RepoCard
-├── App.jsx         top-level layout
-└── main.jsx        entry point
-```
+repo-explorer/
+├── index.html
+├── package.json
+├── vite.config.js
+├── public/
+│   └── favicon.svg
+└── src/
+    ├── main.jsx              # entry point, mounts <App />
+    ├── App.jsx               # top-level component, wires everything together
+    ├── App.css
+    ├── index.css             # global theme variables (colors, fonts)
+    ├── api/
+    │   └── github.js         # all GitHub API calls live here, isolated
+    ├── hooks/
+    │   └── useGithubRepos.js # state + fetching logic (custom hook)
+    └── components/
+        ├── SearchBar.jsx / .css
+        ├── FilterInput.jsx / .css
+        ├── ProfileHeader.jsx / .css
+        ├── RepoCard.jsx / .css
+        └── RepoList.jsx / .css
 
 ## Getting started
 
