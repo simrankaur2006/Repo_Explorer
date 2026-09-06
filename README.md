@@ -1,6 +1,6 @@
 # Repo Explorer
 
-A small React app for browsing any GitHub user's public repositories to search a username and see their repos sorted by stars, complete with descriptions, languages, and fork counts.
+A React application for browsing any GitHub user's public repositories to search a username and see their repos sorted by stars, complete with descriptions, languages, and fork counts.
 
 Built with React and Vite, using GitHub's public REST API. No backend, no API key, no sign-in required.
 
