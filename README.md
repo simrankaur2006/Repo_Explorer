@@ -60,6 +60,7 @@ npm run build
 
 Output is generated in the `dist/` folder, ready to deploy to any static host.
 
+CHECK OUT LIVE APPLICATION-> https://repo-explorer-hazel.vercel.app/
 ## Possible improvements
 
 - Pagination for users with 100+ repositories
